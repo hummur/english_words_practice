@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>英単語語源解説 - グループ1: spect (見る)</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto; /* Adjusted margin */
+            padding: 20px;
+            background-color: #ffffff; /* Added background for container */
+            box-shadow: 0 0 15px rgba(0,0,0,0.1); /* Added shadow to container */
+            border-radius: 8px; /* Added border-radius */
+        }
+        .etymology-visual {
+            background-color: #eaeaea;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        .visual-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around; /* Changed to space-around */
+            margin-top: 20px;
+        }
+        .visual-item {
+            width: calc(33% - 20px); /* Adjusted width for spacing */
+            margin-bottom: 20px;
+            text-align: center;
+            min-width: 250px; /* Added min-width */
+        }
+        .visual-item img {
+            max-width: 100%;
+            height: auto; /* Added height auto */
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc; /* Added border */
+        }
+        .visual-caption {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 0.9em; /* Adjusted font size */
+        }
+        .etymology-text {
+            margin-bottom: 20px;
+            text-align: center; /* Centered text */
+            font-size: 1.1em; /* Increased font size */
+        }
+        .word-group {
+            margin-bottom: 40px;
+        }
+        .word-card {
+            background-color: white;
+            border: 1px solid #e0e0e0; /* Changed border */
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Adjusted shadow */
+            padding: 25px; /* Increased padding */
+            margin-bottom: 30px; /* Increased margin */
+        }
+        .word-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #f0f0f0; /* Changed border */
+            padding-bottom: 15px; /* Increased padding */
+            margin-bottom: 20px; /* Increased margin */
+        }
+        .word-title {
+            font-size: 26px; /* Increased font size */
+            font-weight: bold;
+            color: #1a5276; /* Changed color */
+        }
+        .pronunciation {
+            color: #566573; /* Changed color */
+            font-style: italic;
+            font-size: 1.1em; /* Increased font size */
+        }
+        .etymology, .meaning, .derivatives, .examples, .toeic-tips-container { /* Added toeic-tips-container */
+             margin-bottom: 20px; /* Increased margin */
+        }
+        .etymology {
+            background-color: #eaf2f8; /* Light blue background */
+            border-left: 5px solid #3498db;
+            padding: 12px 18px; /* Increased padding */
+            font-size: 1.05em; /* Increased font size */
+        }
+        .meaning-item { /* Added class for meaning items */
+             margin-bottom: 8px;
+        }
+         .meaning strong, .derivatives strong, .examples strong { /* Targeting strong tags */
+             color: #2c3e50;
+             font-weight: 600; /* Slightly bolder */
+             display: block; /* Make strong tag block level */
+             margin-bottom: 8px; /* Add space below title */
+         }
+        .derivative-item {
+            margin-bottom: 6px; /* Increased margin */
+            padding-left: 15px; /* Added padding */
+        }
+        .example {
+            margin-bottom: 12px; /* Increased margin */
+            padding-left: 18px; /* Increased padding */
+            border-left: 3px solid #d5dbdb; /* Changed color */
+            font-size: 1.05em; /* Slightly increased font size */
+        }
+         .example .jp { /* Class for Japanese translation */
+             color: #555;
+             font-size: 0.95em;
+             margin-left: 5px;
+         }
+        .toeic-example {
+            background-color: #fef9e7; /* Lighter yellow */
+            padding: 12px 18px; /* Increased padding */
+            border-radius: 5px;
+            margin-bottom: 12px; /* Increased margin */
+            border-left: 3px solid #f1c40f; /* Added border */
+            font-size: 1.05em; /* Slightly increased font size */
+        }
+        .toeic-tips {
+            background-color: #e8f6f3; /* Lighter green */
+            padding: 12px 18px; /* Increased padding */
+            border-radius: 5px;
+            border-left: 3px solid #1abc9c; /* Added border */
+            font-size: 1.05em; /* Slightly increased font size */
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 25px; /* Increased padding */
+            margin-top: 50px; /* Increased margin */
+        }
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .visual-item {
+                width: calc(50% - 20px);
+            }
+             .word-title {
+                 font-size: 22px;
+             }
+             .pronunciation {
+                 font-size: 1em;
+             }
+        }
+         @media (max-width: 480px) {
+            .visual-item {
+                width: 100%;
+            }
+            .word-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .pronunciation {
+                 margin-top: 5px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>英単語語源解説 - グループ1: spect (見る)</h1>
+    </header>
+
+    <div class="container">
+        <section class="etymology-visual">
+            <div class="etymology-text">
+                <h2>語源のビジュアルイメージ：spect (見る)</h2>
+                <p>ラテン語「specere」（見る）から派生した言葉群は、「見る」という行為の様々な側面や方向性を表しています。検査官が製品を厳しくチェックしたり (inspect)、観客 (spectators) がステージに見入ったり、広い景色 (perspective) を眺めたりする様子をイメージしましょう。</p>
+            </div>
+
+            <div class="visual-container">
+                <div class="visual-item">
+                    <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Inspect" alt="検査官が虫眼鏡で製品の欠陥を厳しくチェックしている様子" />
+                    <div class="visual-caption">検査官が製品を詳しく見る (inspect)</div>
+                </div>
+                <div class="visual-item">
+                    <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Spectators" alt="聴衆が熱心に講演者の話を聞いている様子" />
+                    <div class="visual-caption">観客がステージを見る (spectators)</div>
+                </div>
+                <div class="visual-item">
+                    <img src="https://via.placeholder.com/300x200/cccccc/000000?text=Perspective" alt="山の頂上から広大な景色を眺めている人" />
+                    <div class="visual-caption">山頂から景色を見通す (perspective)</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="word-group">
+            <!-- Word 1: inspect -->
+            <div class="word-card">
+                <div class="word-header">
+                    <div class="word-title">inspect</div>
+                    <div class="pronunciation">/ɪnˈspekt/</div>
+                </div>
+                <div class="etymology">
+                    <strong>語源:</strong> in- (中に) + spect (見る) → 中を詳しく見る
+                </div>
+                <div class="meaning">
+                    <strong>意味:</strong>
+                    <div class="meaning-item">(動) 1. ～を(詳細に)検査する、点検する</div>
+                    <div class="meaning-item">(動) 2. ～を視察する</div>
+                </div>
+                <div class="derivatives">
+                    <strong>派生語:</strong>
+                    <div class="derivative-item">inspection (/ɪnˈspekʃn/, 名: 検査、点検)</div>
+                    <div class="derivative-item">inspector (/ɪnˈspektər/, 名: 検査官、視察官)</div>
+                </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. The mechanic inspected the engine for any faults. <span class="jp">(整備士はエンジンに欠陥がないか検査した。)</span></div>
+                    <div class="example">1. You should inspect the goods carefully upon arrival. <span class="jp">(到着したら商品を注意深く点検すべきです。)</span></div>
+                    <div class="example">2. The CEO will inspect the new overseas factory next month. <span class="jp">(CEOは来月、新しい海外工場を視察する予定だ。)</span></div>
+                 </div>
+                 <div class="toeic-examples"> <!-- Renamed class -->
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. All luggage is inspected by security personnel at the airport. <span class="jp">(空港ではすべての手荷物が警備員によって検査される。)</span></div>
+                    <div class="toeic-example">1. Please inspect the rental car for any existing damage before driving off. <span class="jp">(運転を開始する前に、レンタカーに既存の損傷がないか点検してください。)</span></div>
+                    <div class="toeic-example">2. The safety committee will inspect the construction site to ensure compliance with regulations. <span class="jp">(安全委員会は規制遵守を確実にするため建設現場を視察する。)</span></div>
+                </div>
+                <div class="toeic-tips-container"> <!-- Added container -->
+                    <div class="toeic-tips">
+                        <strong>TOEIC TIPS:</strong> 品質管理、安全確認、税関などの文脈で「検査する」意味が頻出。`inspection` (検査) は Part 7 の通知や報告書でよく見られる。
+                    </div>
+                </div>
+            </div>
+
+            <!-- Word 2: respect -->
+            <div class="word-card">
+                <div class="word-header">
+                    <div class="word-title">respect</div>
+                    <div class="pronunciation">/rɪˈspekt/</div>
+                </div>
+                <div class="etymology">
+                    <strong>語源:</strong> re- (再び/後ろを) + spect (見る) → 振り返って見るに値する → 敬意を払う
+                </div>
+                <div class="meaning">
+                    <strong>意味:</strong>
+                    <div class="meaning-item">(動) 1. ～を尊敬する</div>
+                    <div class="meaning-item">(動) 2. ～を尊重する、(規則・権利など)を守る</div>
+                    <div class="meaning-item">(名) 3. 尊敬、敬意</div>
+                    <div class="meaning-item">(名) 4. (in this respectなどの形で) 点、事項</div>
+                </div>
+                <div class="derivatives">
+                    <strong>派生語:</strong>
+                    <div class="derivative-item">respectful (/rɪˈspektfl/, 形: 敬意を表す、丁寧な)</div>
+                    <div class="derivative-item">respectable (/rɪˈspektəbl/, 形: 立派な、ちゃんとした)</div>
+                    <div class="derivative-item">respective (/rɪˈspektɪv/, 形: それぞれの)</div>
+                    <div class="derivative-item">respectively (/rɪˈspektɪvli/, 副: それぞれ)</div>
+                </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. Children learn to respect their parents. <span class="jp">(子供たちは親を尊敬することを学ぶ。)</span></div>
+                    <div class="example">2. We must respect intellectual property rights. <span class="jp">(私たちは知的財産権を尊重しなければならない。)</span></div>
+                    <div class="example">3. She showed great respect for her mentor. <span class="jp">(彼女は指導者に深い敬意を示した。)</span></div>
+                    <div class="example">4. The plan is good in most respects, but the cost is a concern. <span class="jp">(その計画はほとんどの点で良いが、コストが懸念事項だ。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. Mr. Tanaka is highly respected throughout the industry for his expertise. <span class="jp">(田中氏はその専門知識で業界全体から高く尊敬されている。)</span></div>
+                    <div class="toeic-example">2. All employees are required to respect the confidentiality agreement they signed. <span class="jp">(全従業員は署名した機密保持契約を尊重することが求められる。)</span></div>
+                    <div class="toeic-example">3. Treating colleagues with respect fosters a positive work environment. <span class="jp">(同僚に敬意をもって接することは、前向きな職場環境を育む。)</span></div>
+                    <div class="toeic-example">4. The candidates differ in qualifications and experience, but are similar in other respects. <span class="jp">(候補者たちは資格と経験において異なるが、他の点では似ている。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                    <div class="toeic-tips">
+                        <strong>TOEIC TIPS:</strong> 動詞の「尊重する(守る)」意味と名詞の「点」の意味がビジネス文脈で重要。派生語 `respective` / `respectively` はPart 5, 6で頻出。
+                    </div>
+                </div>
+            </div>
+
+            <!-- Word 3: expect -->
+            <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">expect</div>
+                     <div class="pronunciation">/ɪkˈspekt/</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> ex- (外を) + spect (見る) → 外を見て（何かが来るのを）待つ
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(動) 1. ～を予期する、予想する</div>
+                     <div class="meaning-item">(動) 2. ～を期待する</div>
+                     <div class="meaning-item">(動) 3. (当然のこととして)～を要求する、～するつもりである</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong>
+                     <div class="derivative-item">expectation (/ˌekspekˈteɪʃn/, 名: 期待、予想)</div>
+                     <div class="derivative-item">unexpected (/ˌʌnɪkˈspektɪd/, 形: 予期しない、思いがけない)</div>
+                     <div class="derivative-item">unexpectedly (/ˌʌnɪkˈspektɪdli/, 副: 思いがけなく)</div>
+                 </div>
+                 <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. Experts expect the economy to recover gradually. <span class="jp">(専門家は経済が徐々に回復すると予期している。)</span></div>
+                    <div class="example">2. The teacher expects punctuality from all students. <span class="jp">(先生は全生徒に時間厳守を期待している。)</span></div>
+                    <div class="example">3. What time do you expect to arrive? <span class="jp">(何時に到着するつもりですか？)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. The shipment is expected to arrive by Friday at the latest. <span class="jp">(荷物は遅くとも金曜日までには到着すると予想されている。)</span></div>
+                    <div class="toeic-example">2. We expect our suppliers to meet high quality standards. <span class="jp">(私たちは供給業者が高い品質基準を満たすことを期待している。)</span></div>
+                    <div class="toeic-example">3. Participants are expected to bring their own laptops to the workshop. <span class="jp">(参加者はワークショップに自分のノートパソコンを持参することが求められます。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> `be expected to do` (〜する予定だ、〜することが求められる) の形が非常に多い。受動態での使われ方に慣れることが重要。
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Word 4: suspect -->
+            <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">suspect</div>
+                     <div class="pronunciation">/səˈspekt/ (動詞), /ˈsʌspekt/ (名詞)</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> sub- (下に) + spect (見る) → 下からこっそり見る → 疑う
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(動) 1. ～ではないかと疑う、(～だろうと) 思う</div>
+                     <div class="meaning-item">(動) 2. (人・物)を怪しいと思う</div>
+                     <div class="meaning-item">(名) 3. 容疑者</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong>
+                     <div class="derivative-item">suspicion (/səˈspɪʃn/, 名: 疑い、疑惑)</div>
+                     <div class="derivative-item">suspicious (/səˈspɪʃəs/, 形: 疑わしい、怪しい)</div>
+                     <div class="derivative-item">suspiciously (/səˈspɪʃəsli/, 副: 疑わしげに)</div>
+                 </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. I suspect she knows more than she is telling us. <span class="jp">(彼女は私たちに話している以上のことを知っているのではないかと思う。)</span></div>
+                    <div class="example">2. The police suspected the man hiding in the shadows. <span class="jp">(警察は物陰に隠れている男を怪しいと思った。)</span></div>
+                    <div class="example">3. The main suspect was arrested yesterday. <span class="jp">(主犯の容疑者が昨日逮捕された。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. We suspect there might be a technical issue with the server. <span class="jp">(サーバーに技術的な問題があるのではないかと思われます。)</span></div>
+                    <div class="toeic-example">1. If you receive a suspicious email asking for personal information, do not reply and report it immediately. <span class="jp">(個人情報を尋ねる疑わしいメールを受け取った場合は、返信せずに直ちに報告してください。)</span> (※suspicious の例を含む)</div>
+                    <div class="toeic-example">3. The investigation focused on three main suspects. <span class="jp">(捜査は3人の主な容疑者に焦点を当てた。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> 動詞と名詞で発音・アクセントが異なる。セキュリティや問題発生の文脈で「疑う」「思う」の意味で使われる。`suspicious` (疑わしい) も頻出。
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Word 5: perspective -->
+            <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">perspective</div>
+                     <div class="pronunciation">/pərˈspektɪv/</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> per- (通して) + spect (見る) + -ive (形容詞/名詞語尾) → 全体を見通すこと
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(名) 1. 観点、考え方</div>
+                     <div class="meaning-item">(名) 2. 大局観、全体像</div>
+                     <div class="meaning-item">(名) 3. (正しい)見方、判断力</div>
+                     <div class="meaning-item">(名) 4. 遠近法</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong> -
+                 </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. Let's consider the problem from a different perspective. <span class="jp">(違う観点から問題を考えてみましょう。)</span></div>
+                    <div class="example">2. Working abroad helped him gain a broader perspective. <span class="jp">(海外で働くことは、彼がより広い視野を得るのに役立った。)</span></div>
+                    <div class="example">3. We need someone with perspective to lead the team. <span class="jp">(チームを率いるには、正しい判断力を持った人が必要だ。)</span></div>
+                    <div class="example">4. The artist used perspective to create a sense of depth. <span class="jp">(その芸術家は奥行き感を出すために遠近法を用いた。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. The article offers a historical perspective on the current economic situation. <span class="jp">(その記事は現在の経済状況に対する歴史的な視点を提供している。)</span></div>
+                    <div class="toeic-example">2. It's important to maintain perspective when facing challenges. <span class="jp">(困難に直面したとき、大局観を保つことが重要だ。)</span></div>
+                    <div class="toeic-example">1. Gathering opinions from various stakeholders helps provide a balanced perspective. <span class="jp">(様々な利害関係者から意見を集めることは、バランスの取れた見方(観点)を提供するのに役立つ。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> ビジネス上の議論、戦略、意見交換の文脈で「観点」「考え方」「大局観」の意味で頻出 (Part 7)。`from a ... perspective` の形でよく使われる。
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Word 6: prospect -->
+            <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">prospect</div>
+                     <div class="pronunciation">/ˈprɑːspekt/</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> pro- (前方を) + spect (見る) → 前方を見る、見通す
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(名) 1. (～の)見込み、可能性 (of/for)</div>
+                     <div class="meaning-item">(名) 2. (複数形で) 将来性、(成功の)見通し</div>
+                     <div class="meaning-item">(名) 3. (有望な)候補者、見込み客</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong>
+                     <div class="derivative-item">prospective (/prəˈspektɪv/, 形: 見込みのある、将来の)</div>
+                 </div>
+                 <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. There is little prospect of the situation improving soon. <span class="jp">(状況がすぐに改善する見込みはほとんどない。)</span></div>
+                    <div class="example">2. The company has excellent growth prospects. <span class="jp">(その会社には素晴らしい成長の見通しがある。)</span></div>
+                    <div class="example">3. The salesperson contacted several prospects today. <span class="jp">(その営業担当者は今日、数人の見込み客に連絡を取った。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. The prospect of a merger is causing excitement among employees. <span class="jp">(合併の見込みが従業員の間に興奮を引き起こしている。)</span></div>
+                    <div class="toeic-example">2. Analysts are optimistic about the long-term prospects for the technology sector. <span class="jp">(アナリストはテクノロジー部門の長期的な将来性について楽観的だ。)</span></div>
+                    <div class="toeic-example">3. Our marketing efforts are focused on attracting qualified prospects. <span class="jp">(私たちのマーケティング活動は、質の高い見込み客を引きつけることに焦点を当てている。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> ビジネス、経済、キャリアに関する文脈で「見込み」「将来性」「見込み客」の意味で頻出。形容詞 `prospective` (例: prospective buyer 見込み客) も重要。
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Word 7: aspect -->
+             <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">aspect</div>
+                     <div class="pronunciation">/ˈæspekt/</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> ad- (～の方へ) + spect (見る) → 見る方向、見え方
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(名) 1. (物事の) 側面、様相、局面</div>
+                     <div class="meaning-item">(名) 2. (顔の)特徴、外観</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong> -
+                 </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. We must consider all aspects of the problem before making a decision. <span class="jp">(決定を下す前に、問題のあらゆる側面を考慮しなければならない。)</span></div>
+                    <div class="example">1. The financial aspect of the project is the most challenging. <span class="jp">(プロジェクトの財政面が最も困難だ。)</span></div>
+                    <div class="example">2. The building has a modern aspect. <span class="jp">(その建物は近代的な外観をしている。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. The training program covers practical aspects of management. <span class="jp">(その研修プログラムは、管理の実践的な側面を扱っている。)</span></div>
+                    <div class="toeic-example">1. Customer satisfaction is a key aspect of our business strategy. <span class="jp">(顧客満足は、私たちのビジネス戦略の重要な側面である。)</span></div>
+                    <div class="toeic-example">1. This article discusses the environmental aspects of industrial development. <span class="jp">(この記事は産業開発の環境的側面について論じている。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> 報告書、分析、議論の中で、物事の様々な「側面」や「要素」を指すのに頻繁に使われる (Part 7)。`various aspects`, `different aspects`, `key aspect` などの形で頻出。
+                     </div>
+                 </div>
+            </div>
+
+            <!-- Word 8: spectator -->
+             <div class="word-card">
+                 <div class="word-header">
+                     <div class="word-title">spectator</div>
+                     <div class="pronunciation">/ˈspekteɪtər/</div>
+                 </div>
+                 <div class="etymology">
+                     <strong>語源:</strong> spectare (見る、specereの反復形) + -or (～する人) → 見る人
+                 </div>
+                 <div class="meaning">
+                     <strong>意味:</strong>
+                     <div class="meaning-item">(名) 1. (スポーツ・イベントなどの) 観客、傍観者</div>
+                 </div>
+                 <div class="derivatives">
+                     <strong>派生語:</strong>
+                     <div class="derivative-item">spectacle (/ˈspektəkl/, 名: 光景、見世物、(複数形で)眼鏡)</div>
+                 </div>
+                <div class="examples">
+                    <strong>例文:</strong>
+                    <div class="example">1. The stadium was filled with excited spectators. <span class="jp">(スタジアムは興奮した観客でいっぱいだった。)</span></div>
+                    <div class="example">1. Spectators enjoyed the fireworks display. <span class="jp">(観客は花火のショーを楽しんだ。)</span></div>
+                    <div class="example">1. He was merely a spectator, not involved in the argument. <span class="jp">(彼は単なる傍観者で、その口論には関与していなかった。)</span></div>
+                 </div>
+                 <div class="toeic-examples">
+                    <strong>TOEIC頻出問題の例文:</strong>
+                    <div class="toeic-example">1. Spectators are advised to arrive early to find good seats. <span class="jp">(観客は良い席を見つけるために早めに到着することをお勧めします。)</span></div>
+                    <div class="toeic-example">1. The event attracted thousands of spectators from around the world. <span class="jp">(そのイベントは世界中から何千人もの観客を引きつけた。)</span></div>
+                    <div class="toeic-example">1. Safety barriers were installed to protect the spectators. <span class="jp">(観客を保護するために安全柵が設置された。)</span></div>
+                </div>
+                <div class="toeic-tips-container">
+                     <div class="toeic-tips">
+                         <strong>TOEIC TIPS:</strong> スポーツイベント、コンサート、パレードなどに関する案内や記事 (Part 7) で使われる。`audience` (聴衆) との使い分けに注意。
+                     </div>
+                 </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 英単語語源解説 - spect グループ</p>
+    </footer>
+</body>
+</html>
